@@ -1,0 +1,58 @@
+header {
+  color: red;
+  background: #424345;
+  position: fixed;
+  top: 0;
+  float: left;
+  width: 100%;
+}
+
+.current {
+  color: white;
+  margin-bottom: 5px;
+  margin-right: 25px;
+  float: right;
+
+}
+
+h2 {
+  margin-top: 61px;
+  float: left;
+  width: 100%;
+}
+
+#boxes {
+  float: left;
+  display: table-cell;
+  text-align: center;
+  background: #d6d7d2;
+  padding: 10px;
+}
+
+.instructions {
+  margin-top: 75px;
+  padding-left: 175px;
+}
+
+#usercomment {
+  float: left;
+}
+
+textarea {
+  width: 400px;
+  height: 80px;
+  float: left;
+  background-color: #ffff
+  resize: none;
+}
+
+button {
+  width: 80px;
+  height:30px;
+  background-color: #1f6b2f;
+  border: none;
+  color: #ffff;
+  font-family: arial;
+  font-weight: 400;
+  cursor: pointer;
+}

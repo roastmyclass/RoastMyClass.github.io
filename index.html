@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>RoastMyClass</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="RoastMyClass is a site to...Roast 125">
+    <meta name="keywords" content="Roast, CS125, UIUC, University of Illinois, RoastMyClass">
+    <meta name="author" content="Nick Helms and Jessica Lagios">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>RoastMyClass</h1>
+          </div>
+          <nav>
+            <ul>
+              <li class="current"><a href="index.html">| Home |</a></li>
+          </nav>
+      </div>
+    </header>
+    <section id="classname">
+        <h2>CS 125</h2>
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <h3>OVERALL<br/>QUALITY</h3>
+          <p>[placeholder]</p>
+        </div>
+        <div class="box">
+          <h5>WOULD RECOMMEND<br/>TO OTHERS</h5>
+          <p>[placeholder]</p>
+        </div>
+        <div class="box">
+          <h5>LEVEL OF<br/>DIFFICULTY</h5>
+          <p>[placeholder]</p>
+        </div>
+      </section>
+      <form method="POST" action="form.php">
+        <div class="instructions">
+          <p>Rate your course</p>
+          <input type="radio" name="whole" value="1">1
+          <input type="radio" name="whole" value="2">2
+          <input type="radio" name="whole" value="3">3
+          <input type="radio" name="whole" value="4">4
+          <input type="radio" name="whole" value="5">5
+        </div>
+        <div class="instructions">
+          <p>Level of difficulty</p>
+          <input type="radio" name="hard" value="1">1
+          <input type="radio" name="hard" value="2">2
+          <input type="radio" name="hard" value="3">3
+          <input type="radio" name="hard" value="4">4
+          <input type="radio" name="hard" value="5">5
+        </div>
+                <div class="instructions">
+          <p>Would you recommend this course to others</p>
+          <input type="radio" name="worth" value="Yes">Yes
+          <input type="radio" name="worth" value="No">No
+        </div>
+        <br>
+        <div id="usercomment">
+          <p>Have more to say? Tell us here!</p>
+          <textarea name="comment" placeholder="Start typing your comment..."></textarea>
+          <br>
+          <button type="submit" name="submit">Submit</button>
+        </div>
+      </form>
+  </body>
+</html>
